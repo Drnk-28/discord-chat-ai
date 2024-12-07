@@ -1,0 +1,29 @@
+{
+   "name": "discord-chat-ai",
+   "version": "1.0.0",
+   "description": "Discord Chat AI with integration of various services and interactive features.",
+   "main": "index.js",
+   "scripts": {
+      "build": "npm install",
+      "start": "node index.js"
+   },
+   "author": "drnk.28",
+   "license": "MIT",
+   "dependencies": {
+      "cohere-ai": "latest",
+      "discord.js": "latest",
+      "dotenv": "latest",
+      "fs": "^0.0.1-security"
+   },
+   "homepage": "https://github.com/Drnk-28/discord-chat-ai#readme",
+   "bugs": {
+      "url": "https://github.com/Drnk-28/discord-chat-ai/issues"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/Drnk-28/discord-chat-ai.git"
+   },
+   "engines": {
+      "node": ">=18.0.0"
+   }
+}
